@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Roboto+Mono:wght@700&family=Source+Code+Pro:wght@500;600&display=swap");
+/* 
+font-family: 'Roboto Mono', monospace;
+*/
+body {
+  background-color: #232526;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+body .container {
+  max-width: 960px;
+  margin: auto;
+  padding: 80px 0;
+}
+.btn-collapse {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 1.3rem !important;
+}
+.custom_collapse-main {
+  background-color: #414345;
+  width: auto;
+  border-radius: 25px;
+}
+.custom_collapse {
+  background-color: #232526;
+  border-radius: 10px;
+  margin-top: 15px;
+  overflow: hidden;
+  height: 0px;
+  opacity: 0;
+  padding: 0 25px;
+  transition: 0.5s;
+}
+.show-collapse {
+  padding: 25px 25px;
+  height: auto;
+  overflow: auto;
+  transition: 0.5s;
+  opacity: 1;
+}
+.custom_collapse p {
+  color: aliceblue;
+  font-size: 1.1rem;
+}
